@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&family=Ubuntu&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(53, 234, 53);
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: rgb(21, 99, 11);
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 90px;
+    position: absolute;
+    top: 50px;
+}
+h1 i{
+    color: black;
+}
+#container{
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(228, 252, 228);
+    box-shadow: 0px 20px 40px rgba(38, 33, 61, 0.2);
+    padding: 50px 40px 40px;
+}
+#searchBar{
+    margin: 10px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    width: 450px;
+    padding: 8px;
+    border: none;
+    border-bottom: 3px solid rgb(5, 196, 5);
+}
+
+#searchBar button{
+    font-weight: 600;
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(5, 196, 5);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+#word{
+    margin-top: 60px;
+    justify-content: space-between;
+}
+#word button{
+    margin-right: 10px;
+    color: rgb(9, 170, 9);
+}
+
+#details{
+    display: flex;
+    margin-top: 8px;
+}
+#details h5{
+    color: gray;
+    display: block;
+    opacity: 0.5;
+}
+#word-meaning #meaning{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    font-weight: 100;
+}
+#word-meaning #meaning2{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 20px;
+    border-left: 3px solid rgb(9, 170, 9);
+}
+.error{
+    color: red;
+    margin: 70px 0px;
+}
